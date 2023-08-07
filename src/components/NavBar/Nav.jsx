@@ -1,5 +1,6 @@
 import React from "react";
 import "./Nav.css";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const Nav = () => {
   return (
@@ -13,6 +14,10 @@ const Nav = () => {
             <li className="list"> Aboutus </li>
             <li className="list"> Gallery </li>
             <li className="list donate-button"> Donate </li>
+            <li className="icon">
+              {" "}
+              <MenuIcon sx={{ fontSize: 30 }} />{" "}
+            </li>
           </ul>{" "}
         </div>
       </div>

@@ -21,6 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+ 
 }
 
 
@@ -33,6 +34,26 @@
     width: 100px;
     margin-left: 15px;
     cursor: pointer;
+    @media screen and (max-width:768px){
+        display: none;
+    }
+}
+
+.icon{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    width: auto;
+    margin-left: 15px;
+    cursor: pointer;
+
+    @media screen and (max-width:768px){
+        display: flex;
+    }
+
+
 }
 
 .list:hover{
