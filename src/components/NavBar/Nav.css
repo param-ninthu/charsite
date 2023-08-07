@@ -4,6 +4,7 @@
     height:50px;    
     justify-content: center;
     align-items: center;
+    /* border: 1px solid red; */
 }
 
 .nav{
@@ -20,4 +21,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    width: 100px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.list:hover{
+    transition: 1s ease-in-out;
+    border-bottom: 2px solid var(--second-color);
+}
+
+.donate-button{
+    border-radius: 5px;
+    height: 35px;
+    background-color: var(--second-color);
 }
